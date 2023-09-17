@@ -1,4 +1,4 @@
-# Property Data Scraping Project
+# Property Data Scraping
 
 This Django project schedules and manages a property data scraping script for the 99acres website. It scrapes essential property details such as property name, cost, type, area, and individual property links. The scraped data is stored in a database and can be scheduled to run twice daily for specific cities and localities using Django's cron job management.
 
