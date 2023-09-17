@@ -52,3 +52,5 @@ The project is structured as follows:
    python manage.py runserver
 
 8. Access the admin panel at http://localhost:8000/admin/ to manage scraped property data
+
+9. Sample output : https://docs.google.com/document/d/1gQ2PW_1KQBZDJkldhzEAhD8jQpMG9f4j/edit?usp=sharing&ouid=107818416453793624005&rtpof=true&sd=true
