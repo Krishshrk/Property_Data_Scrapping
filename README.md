@@ -26,12 +26,12 @@ The project is structured as follows:
 
    ```bash
    python -m venv venv
-   source venv/bin/activate ```
+   source venv/bin/activate 
 
 3. Install project dependencies
 
    ```bash
-   pip install -r requirements.txt ```
+   pip install -r requirements.txt 
 
 4. Configure the Django project settings in scrappingtool/settings.py. Ensure the database settings and other configurations are properly set up.
 
@@ -39,16 +39,16 @@ The project is structured as follows:
 
    ```bash
    python manage.py makemigrations
-   python manage.py migrate ```
+   python manage.py migrate 
 
 6. Start the cron job using the following command:
 
    ```bash
-   python manage.py runcrons ```
+   python manage.py runcrons
 
 7. Start the Django development server
 
    ```bash
-   python manage.py runserver ```
+   python manage.py runserver
 
 8. Access the admin panel at http://localhost:8000/admin/ to manage scraped property data
